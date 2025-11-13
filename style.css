@@ -1,0 +1,50 @@
+/* Fade-in animation for smooth appearance */
+.fade-in {
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Input styling */
+.input-field {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  transition: 0.2s;
+}
+
+.input-field:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #818cf8;
+}
+
+/* Buttons */
+.btn-calc {
+  background-color: #4f46e5;
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.btn-calc:hover {
+  background-color: #4338ca;
+}
+
+.btn-reset {
+  background-color: #f87171;
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.btn-reset:hover {
+  background-color: #dc2626;
+}
